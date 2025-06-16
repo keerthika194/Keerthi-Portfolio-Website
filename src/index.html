@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" contents="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Keerthi's Portfolio Website</title>
+        <!-- Favicon -->
+        <link rel="icon" type="image/x-icon" href="../public/images/keerthi.jpg">
+        <link rel="shortcut icon" type="image/x-icon" href="../public/images/keerthi.jpg">
+        <!--Box Icons-->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <!--Css link-->
+        <link rel="stylesheet" href="css/styling.css">
+    </head>
+    <body>
+        <header class="header">
+            <a href="#" class="logo"><span>MY</span> PORTFOLIO</a>
+            <i class='bx bx-menu' id="menu-icon"></i>
+
+            <nav class="navbar">
+                <a class="active" href="#home">HOME</a>
+                <a href="#about">ABOUT</a>
+                <a href="#exp">EXPERIENCE</a>
+                <a href="#proj">PROJECTS</a>
+                <a href="#ed">EDUCATION</a>
+                <a href="#sk">SKILLS</a>
+                <a href="#footer">CONTACT</a>
+            </nav>
+        </header>
+
+        <!--home section design-->
+        <section class="home" id="home">
+            <div class="home-content">
+                <h3>Hello, It's Me</h3>
+                <h1>Keerthika A</h1>
+                <h3>And I'm a <span class="multiple-text"></span></h3>
+                <p>I'm a pre-final year IT student at VIT Vellore, currently hopping between Frontend pixels and Machine Learning pipelines. 
+                    Yes, Full stack and ML are very different worlds, but I enjoy switching between them like tabs in a browser: one moment I'm designing interfaces, 
+                    the next I'm tuning models. Still exploring, still learning and hoping my errors stay in the Console, not in Production ;)</p>
+                <div class="social-media">
+                    <a href="https://www.linkedin.com/in/keerthikaashok" target="_blank">
+                        <i class='bx bxl-linkedin-square'></i>
+                    </a>
+                    <a href="https://www.instagram.com/keerthika.ashok/" target="_blank">
+                        <i class='bx bxl-instagram-alt'></i>
+                    </a>
+                    <a href="mailto:keerthika.a2023@vitstudent.ac.in">
+                        <i class='bx bxl-gmail'></i>
+                    </a>
+                    <a href="https://github.com/keerthika194" target="_blank">
+                        <i class='bx bxl-github'></i>
+                    </a>
+                </div>
+                <a href="https://drive.google.com/file/d/1QYEF4bN9jedJ49SYhxy5NYzrYArChyP8/view?usp=sharing" target="_blank" class="btn">Download Resume</a>
+            </div>
+            <div class="home-image">
+                <img src="./images/keerthi.jpg" alt="oops not avl" height="200px" 
+                width="200px" class="circular">
+            </div>
+        </section>
+
+        <!--about section design-->
+        <section class="about" id="about">
+            <div class="about-img">
+                <img src="./images/keerthi.jpg" alt="oops not avl" height="200px" 
+                width="200px" class="circular">
+            </div>
+            <div class="about-content">
+                <h2 class="heading">About <span>Me</span></h2>
+                <h3>Frontend Enthusiast</h3>
+                <p>Hello! I'm Keerthika A, a Tech enthusiast, currently pursuing B.Tech in Information Technology at VIT Vellore. 
+                    I've always enjoyed making things work and look good, which led me to Frontend development. Over time, 
+                    my curiosity expanded beyond interfaces, and I began exploring Full stack development, aiming to understand the complete picture
+                    from what users see to how everything runs behind the scenes.</p>
+
+                <p>At the same time, I've been working as a Machine Learning intern at Kineton Technologies, where I've dived into a completely different
+                    domain, building models, analyzing patterns, and letting data guide solutions. It's quite the contrast from Web development, but that's what makes it Exciting.
+                    I'm still exploring both paths to see where my strengths truly lie and for now, I'm embracing the process of learning, building, and finding the
+                    intersection where logic, design, and impact come together.</p>
+
+                <p>This portfolio reflects not just what I've done, but also where I'm headed — One Project, One Bug, and One Breakthrough at a time.</p>
+                <a href="https://www.linkedin.com/in/keerthikaashok" target="_blank" class="btn">Read More</a>
+            </div>
+        </section>
+
+        <!--experience section design-->
+        <section class="exp" id="exp">
+            <h2 class="heading">My <span>Experience</span></h2>
+            <div class="exp-container">
+                <div class="exp-box">
+                    <i class='bx bxs-briefcase-alt-2'></i>
+                    <h3 class="company-name">Kineton Technologies</h3>
+                    <p class="role">Machine Learning Intern</p>
+                    <p class="date">May 2025 – Present</p>
+                    <ul class="pink-bullets">
+                        <li>Developed and optimized ML models using PyTorch and Scikit-learn for real-world datasets, focusing on accuracy and efficiency.</li>
+                        <li>Accelerated training with GPU-based parallel processing, reducing model runtime and improving experimental turnaround.</li>
+                    </ul>
+                    <div class="social-media">
+                        <a href="https://www.linkedin.com/in/keerthikaashok" target="_blank"><i class='bx bxl-linkedin-square' style="font-size: 2rem;"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--project section-->
+        <section class="proj" id="proj">
+            <h2 class="heading">My <span>Projects</span></h2>
+            <div class="proj-container">
+                <div class="proj-box">
+                    <i class='bx bx-dna'></i>
+                    <h3 class="company-name">Heart Disease Prediction – ML Project</h3>
+                    <p class="role">Academic Project</p>
+                    <p class="date">December 2024 - April 2025</p>
+                    <ul class="pink-bullets">
+                        <li>Achieved 95.61% accuracy using XGBoost with hyperparameter tuning on UCI Heart Disease dataset.</li>
+                        <li>Reduced model training time by 60% using GPU-based parallel processing techniques.</li>
+                        <li>Utilized Joblib and GridSearchCV to optimize training workflows and boost performance.</li>
+                    </ul>
+                    <div class="social-media">
+                        <a href="https://www.linkedin.com/in/keerthikaashok" target="_blank"><i class='bx bxl-linkedin-square' style="font-size: 2rem;"></i></a>
+                        <a href="https://github.com/keerthika194" target="_blank"><i class='bx bxl-github' style="font-size: 2rem;"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="proj-container">
+                <div class="proj-box">
+                    <i class='bx bxs-palette'></i>
+                    <h3 class="company-name">Personal Portfolio Website</h3>
+                    <p class="role">Individual Project</p>
+                    <p class="date">June 2025</p>
+                    <ul class="pink-bullets">
+                        <li>Designed and developed a responsive personal portfolio website using HTML, CSS, and JavaScript.</li>
+                        <li>Implemented mobile-first UI with smooth navigation, scroll effects, and interactive elements.</li>
+                        <li>Showcased academic and internship experiences, projects, and resume in a clean, accessible format.</li>
+                    </ul>
+                    <div class="social-media">
+                        <a href="https://www.linkedin.com/in/keerthikaashok" target="_blank"><i class='bx bxl-linkedin-square' style="font-size: 2rem;"></i></a>
+                        <a href="https://github.com/keerthika194" target="_blank"><i class='bx bxl-github' style="font-size: 2rem;"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--education section design-->
+        <section class="ed" id="ed">
+            <h2 class="heading">My <span>Education</span></h2>
+            <div class="ed-container">
+                <div class="ed-box">
+                    <i class='bx bxs-graduation'></i>
+                    <h3>Vellore Institute of Technology, Vellore</h3>
+                    <p>BTech - Information Technology (2023-2027)</p>
+                    <ul class="edu-bullets">
+                        <li>Current CGPA: <strong>7.84 / 10</strong> (Till 4th semester)</li>
+                        <li>Building strong foundations in <strong>Full Stack Development</strong> and <strong>Machine Learning</strong> through academic and self-driven projects.</li>
+                        <li>Currently interning at <strong>Kineton Technologies</strong>, a VIT Pre-incubated Start-up, where I work on model optimization using PyTorch and Scikit-learn.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="ed-container">
+                <div class="ed-box">
+                    <i class='bx bx-book-reader'></i>
+                    <h3>Sunbeam CBSE School, Vellore</h3>
+                    <p>Year (2018-2022)</p>
+                    <ul class="edu-bullets">
+                        <li>Scored 95% in Class X Boards</li>
+                        <li>Scored 78% in Class XII Boards</li>
+                        <li>Active participant in Cultural and Technical events</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!--Skills section design-->
+        <section class="sk" id="sk">
+            <h2 class="heading">My <span>Skills</span></h2>
+            <div class="sk-container">
+                <div class="sk-box">
+                    <i class='bx bxs-terminal'></i>
+                    <h3>Programming Languages</h3>
+                    <a href="#" class="btn">Python</a>
+                    <a href="#" class="btn">C++</a>
+                    <a href="#" class="btn">Java</a>
+                    <a href="#" class="btn">JavaScript</a>
+                    <a href="#" class="btn">HTML</a>
+                    <a href="#" class="btn">CSS</a>
+                    <a href="#" class="btn">PL/SQL</a>
+                </div>
+            </div>
+
+            <div class="sk-container">
+                <div class="sk-box">
+                    <i class='bx bx-cog'></i>
+                    <h3>Framework & Tools</h3>
+                    <a href="#" class="btn">Scikit-Learn</a>
+                    <a href="#" class="btn">Tailwind.css</a>
+                    <a href="#" class="btn">Pandas</a>
+                    <a href="#" class="btn">NumPy</a>
+                    <a href="#" class="btn">PyTorch</a>
+                    <a href="#" class="btn">CNN</a>
+                </div>
+            </div>
+
+            <div class="sk-container">
+                <div class="sk-box">
+                    <i class='bx bxs-category'></i>
+                    <h3>Development</h3>
+                    <a href="#" class="btn">Web Development</a>
+                    <a href="#" class="btn">Machine Learning Model Implementation</a>
+                </div>
+            </div>
+
+            <div class="sk-container">
+                <div class="sk-box">
+                    <i class='bx bx-slider-alt'></i>
+                    <h3>Analytical Skills</h3>
+                    <a href="#" class="btn">Critical Thinking</a>
+                    <a href="#" class="btn">Effective Communication</a>
+                    <a href="#" class="btn">Team Collaboration</a>
+                    <a href="#" class="btn">Problem Solving</a>
+                </div>
+            </div>
+
+            <div class="sk-container">
+                <div class="sk-box">
+                    <i class='bx bxs-extension'></i>
+                    <h3>Languages</h3>
+                    <a href="#" class="btn">English</a>
+                    <a href="#" class="btn">Tamil</a>
+                </div>
+            </div>
+        </section>
+
+        <!--footer section-->
+        <footer class="footer" id="footer">
+            <div class="footer-content">
+                <h2>Contact Me</h2>
+                <p>Feel free to reach out to me for any opportunities or just to say hello!</p>
+                <div class="footer-contact">
+                    <form class="contact-form">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <textarea placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/in/keerthikaashok" target="_blank"><i class='bx bxl-linkedin-square'></i></a>
+                    <a href="https://github.com/keerthika194" target="_blank"><i class='bx bxl-github'></i></a>
+                    <a href="mailto:keerthika.a2023@vitstudent.ac.in"><i class='bx bxl-gmail'></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Keerthika A. All rights reserved.</p>
+            </div>
+        </footer>
+
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html> 
